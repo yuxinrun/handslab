@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://yuxinrun.github.io/handslab/#/</loc><priority>1.0</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/learning-path</loc><priority>0.8</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/labs</loc><priority>0.8</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/agent-core/02-agent-loop</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/agent-core/03-llm-and-tool-calling</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/agent-core/04-action-observation</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/architecture/01-overall-architecture</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/architecture/02-repo-boundaries</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/architecture/03-agent-canvas</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/architecture/04-software-agent-sdk</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/architecture/05-agent-server-architecture</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/architecture/09-task-sequence</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/automation/01-automation-architecture</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/canvas/01-what-is-agent-canvas</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/conversation/01-conversation-design</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/events/05-event-system</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/getting-started/01-what-is-openhands</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/getting-started/02-why-openhands</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/getting-started/03-agent-taxonomy</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/getting-started/05-comparison</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/getting-started/06-multi-repo</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/practice/01-mini-coding-agent</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/research/01-architecture-lessons</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/security/01-coding-agent-risks</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/server/03-rest-api</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/tools/01-tool-system-design</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/tools/09-custom-tools</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/workspace/01-why-workspace</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/workspace/02-workspace-architecture</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yuxinrun.github.io/handslab/#/article/workspace/06-sandbox-security-model</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+</urlset>

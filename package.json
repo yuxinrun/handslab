@@ -1,0 +1,25 @@
+{
+  "name": "handslab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HandsLab - OpenHands 深度解析与 AI Software Engineering Agent 实战教程",
+  "scripts": {
+    "predev": "node scripts/generate-manifest.mjs && node scripts/generate-diagrams.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/generate-manifest.mjs && node scripts/generate-diagrams.mjs",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "manifest": "node scripts/generate-manifest.mjs",
+    "diagrams": "node scripts/generate-diagrams.mjs",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "marked": "^15.0.6"
+  }
+}

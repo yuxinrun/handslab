@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 480" width="980" height="480" role="img" aria-label="Conversation 生命周期" style="max-width:100%;height:auto">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="#e2e8f0" stroke-width="0.6"/></pattern></defs>
+<rect width="980" height="480" fill="#f8fafc"/><rect width="980" height="480" fill="url(#grid)" opacity="0.75"/>
+<text x="40" y="46" font-size="21" font-weight="800" fill="#0f172a">Conversation 生命周期</text>
+<text x="40" y="68" font-size="12" fill="#475569">从创建、运行到暂停/恢复与结束</text>
+<line x1="40" y1="80" x2="940" y2="80" stroke="#e2e8f0" stroke-width="1.5"/>
+
+<path d="M 180 196 L 230 196" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 370 196 L 420 196" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 560 196 L 610 196" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 750 196 L 790 196" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 490 232 L 490 320" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/><rect x="465" y="254" width="50" height="20" rx="6" fill="#f8fafc" opacity="0.96"/><text x="490" y="268" font-size="11" fill="#475569" text-anchor="middle">持久化</text>
+<path d="M 680 232 L 680 400 L 490 400 L 490 392" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)" stroke-dasharray="6 5"/><rect x="554" y="378" width="62" height="20" rx="6" fill="#f8fafc" opacity="0.96"/><text x="585" y="392" font-size="11" fill="#475569" text-anchor="middle">恢复运行</text>
+<rect x="40" y="160" width="140" height="72" rx="11" fill="#dbeafe" stroke="#2563eb" stroke-width="1.6"/><rect x="40" y="160" width="4" height="72" rx="2" fill="#2563eb"/><text x="110" y="193" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Created</text><text x="110" y="211" font-size="10.5" fill="#475569" text-anchor="middle">POST /api/conversations</text>
+<rect x="230" y="160" width="140" height="72" rx="11" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.6"/><rect x="230" y="160" width="4" height="72" rx="2" fill="#7c3aed"/><text x="300" y="193" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Message</text><text x="300" y="211" font-size="10.5" fill="#475569" text-anchor="middle">POST .../events</text>
+<rect x="420" y="160" width="140" height="72" rx="11" fill="#cffafe" stroke="#0891b2" stroke-width="1.6"/><rect x="420" y="160" width="4" height="72" rx="2" fill="#0891b2"/><text x="490" y="193" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Running</text><text x="490" y="211" font-size="10.5" fill="#475569" text-anchor="middle">POST .../run</text>
+<rect x="610" y="160" width="140" height="72" rx="11" fill="#fef3c7" stroke="#d97706" stroke-width="1.6"/><rect x="610" y="160" width="4" height="72" rx="2" fill="#d97706"/><text x="680" y="193" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Paused</text><text x="680" y="211" font-size="10.5" fill="#475569" text-anchor="middle">POST .../pause</text>
+<rect x="790" y="160" width="140" height="72" rx="11" fill="#d1fae5" stroke="#059669" stroke-width="1.6"/><rect x="790" y="160" width="4" height="72" rx="2" fill="#059669"/><text x="860" y="193" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Finished</text><text x="860" y="211" font-size="10.5" fill="#475569" text-anchor="middle">状态更新事件</text>
+<rect x="420" y="320" width="140" height="72" rx="11" fill="#dbeafe" stroke="#2563eb" stroke-width="1.6"/><rect x="420" y="320" width="4" height="72" rx="2" fill="#2563eb"/><text x="490" y="353" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Stored</text><text x="490" y="371" font-size="10.5" fill="#475569" text-anchor="middle">事件持久化</text>
+<g transform="translate(40,454)"><text x="0" y="0" font-size="11.5" fill="#475569">• 端点名称来自官方 Agent Server API Reference</text></g>
+</svg>

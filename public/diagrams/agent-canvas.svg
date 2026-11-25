@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" width="980" height="520" role="img" aria-label="Agent Canvas 前端架构" style="max-width:100%;height:auto">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="#e2e8f0" stroke-width="0.6"/></pattern></defs>
+<rect width="980" height="520" fill="#f8fafc"/><rect width="980" height="520" fill="url(#grid)" opacity="0.75"/>
+<text x="40" y="46" font-size="21" font-weight="800" fill="#0f172a">Agent Canvas 前端架构</text>
+<text x="40" y="68" font-size="12" fill="#475569">React + TypeScript：UI / 状态 / API 适配器三层解耦</text>
+<line x1="40" y1="80" x2="940" y2="80" stroke="#e2e8f0" stroke-width="1.5"/>
+
+<path d="M 230 167 L 290 167" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 470 167 L 530 167" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 710 167 L 770 167" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 380 204 L 380 300" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 620 204 L 620 300" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="50" y="130" width="180" height="74" rx="11" fill="#dbeafe" stroke="#2563eb" stroke-width="1.6"/><rect x="50" y="130" width="4" height="74" rx="2" fill="#2563eb"/><text x="140" y="164" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">UI 组件</text><text x="140" y="182" font-size="10.5" fill="#475569" text-anchor="middle">chat · terminal · files · settings</text>
+<rect x="290" y="130" width="180" height="74" rx="11" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.6"/><rect x="290" y="130" width="4" height="74" rx="2" fill="#7c3aed"/><text x="380" y="164" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">状态层</text><text x="380" y="182" font-size="10.5" fill="#475569" text-anchor="middle">Zustand stores · React Query hooks</text>
+<rect x="530" y="130" width="180" height="74" rx="11" fill="#cffafe" stroke="#0891b2" stroke-width="1.6"/><rect x="530" y="130" width="4" height="74" rx="2" fill="#0891b2"/><text x="620" y="164" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">API 适配器</text><text x="620" y="182" font-size="10.5" fill="#475569" text-anchor="middle">src/api/ 服务封装</text>
+<rect x="770" y="130" width="160" height="74" rx="11" fill="#d1fae5" stroke="#059669" stroke-width="1.6"/><rect x="770" y="130" width="4" height="74" rx="2" fill="#059669"/><text x="850" y="164" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Backends</text><text x="850" y="182" font-size="10.5" fill="#475569" text-anchor="middle">多 Agent Server 切换</text>
+<rect x="290" y="300" width="180" height="74" rx="11" fill="#fef3c7" stroke="#d97706" stroke-width="1.6"/><rect x="290" y="300" width="4" height="74" rx="2" fill="#d97706"/><text x="380" y="334" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">i18n / mocks</text><text x="380" y="352" font-size="10.5" fill="#475569" text-anchor="middle">翻译与 MSW</text>
+<rect x="530" y="300" width="180" height="74" rx="11" fill="#dbeafe" stroke="#2563eb" stroke-width="1.6"/><rect x="530" y="300" width="4" height="74" rx="2" fill="#2563eb"/><text x="620" y="334" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">CLI / Launcher</text><text x="620" y="352" font-size="10.5" fill="#475569" text-anchor="middle">bin/ · scripts/</text>
+<g transform="translate(40,477)"><text x="0" y="0" font-size="11.5" fill="#475569">• 前端不执行 Agent 动作、不提供 sandbox</text><text x="0" y="17" font-size="11.5" fill="#475569">• runtime_services 由后端暴露并注入会话上下文</text></g>
+</svg>
