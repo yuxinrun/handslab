@@ -55,8 +55,12 @@ const renderer = new marked.Renderer();
   return `<a href="${escapeHtml(href)}"${attrs}>${text}</a>`;
 };
 
+export function stripFrontmatter(markdown: string): string {
+  return markdown.replace(/^\s*---\r?\n[\s\S]*?\r?\n---\s*(?:\r?\n|$)/, '');
+}
+
 export function renderMarkdown(markdown: string): string {
-  return marked.parse(markdown, { renderer }) as string;
+  return marked.parse(stripFrontmatter(markdown), { renderer }) as string;
 }
 
 export function slugify(text: string): string {
